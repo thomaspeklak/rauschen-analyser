@@ -1,8 +1,8 @@
 "use strict";
 
 var db = require("../lib/database");
-var config = require("../../config");
-var hostnameToCollection = require("../../lib/hostname-to-collection");
+var config = require("../config");
+var hostnameToCollection = require("rauschen-hostname-to-collection");
 var JSONStream = require("JSONStream");
 var Batch = require("../lib/batch-statistics");
 
